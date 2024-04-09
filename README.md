@@ -41,4 +41,4 @@ To install the WeatherApp on your Android device, follow these steps:
 
 ### Download APK
 
-You can download the latest version of the WeatherApp APK [here](https://github.com/gojiyajayesh/WeatherApp/blob/main/apkfile/WeatherApp.apk).
+You can download the latest version of the WeatherApp APK [here](https://github.com/Raj-Pavara/Weather/Apk File/Weather.apk).
