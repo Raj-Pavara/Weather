@@ -11,8 +11,7 @@ Developed using:
 - ☕ Java
 - 🖌️ XML
 - 💾 Firebase
--    ![Audio/Video Call Icon](https://example.com/audio-video-icon.png)
-ZegoCloud
+- ZegoCloud
 
 ## 🚀 Features
 
