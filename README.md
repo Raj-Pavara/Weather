@@ -11,8 +11,20 @@ Developed using:
 - ☕ Java
 - 🖌️ XML
 - 💾 Firebase
+-    ![Audio/Video Call Icon](https://example.com/audio-video-icon.png)
+ZegoCloud
 
-## 📋 Features
+## 🚀 Features
+
+### 📋 Details of Word Wave
+
+- **Authentication:**
+  - **Sign Up:** Users can register using Google, email-password, or phone number with OTP.
+  - **Sign In:** Secure sign-in process required for app access.
+  - **Google Sign-In:** Integration with Google accounts for easy access.
+  - **Email-Password:** Standard email and password registration.
+  - **Phone Number with OTP:** Register and sign in using phone numbers with OTP verification.
+  - **Forget Password:** Email-password users receive a reset link for forgotten passwords.
 
 ### 🔒 Authentication System
 
