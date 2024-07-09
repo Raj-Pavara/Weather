@@ -1,44 +1,77 @@
-### About
+# Word Wave
 
-**_WeatherApp_** is an Android application developed using the Java programming language. Its primary purpose is to provide users with the weather forecast of the day based on their location. Upon launch and granting location permission, the application displays the forecast of the device’s last known location. Additionally, users can search for weather forecasts of any city. The weather data is accessed from the API provided by [__weatherapi.com__](https://www.weatherapi.com). The application provides information such as current temperature, weather status with the feel, wind speed, as well as details about sunrise and sunset. It also features a 24-hour forecast. Furthermore, the app includes a history section where users' searched cities are saved in a list.
+## Description
 
-### Project by
+Word Wave is an Android Studio project developed using Java and XML, with Firebase as the database. Word Wave is a chatting application.
 
-- Raj Pavara, Email: rajpavara63@gmail.com
+## Details of Word Wave
 
-### Project Assigned by
+### Authentication System
 
-- Bharat Intern
+- **Individual Accounts:** Each user has a unique account.
+- **Sign Up Options:** Users can sign up using Google, phone number, or email and password.
+  - **Profile Information:** During account creation, users must set a profile photo, username, fullname, email, and phone number.
+- **Sign In:** Users must sign in to use the functionalities of Word Wave.
+  - **Phone Number:** Users can sign up using a specific phone number and can sign in using that number only.
+  - **OTP:** For sign-in/sign-up using phone number, an OTP is required.
+  - **Forgot Password:** For email-password sign-up, a password reset link is sent to the entered email if the user forgets their password.
 
-### Build Tools
+### Main Activity
 
-- Android Studio Koala | 2023.3.2 Canary 2
-- Gradle Version 7.2
+After authentication, users are directed to the main activity, which contains three fragments:
 
-### Screenshots
+1. **Profile Fragment**
+   - Displays account details like profile photo, fullname, username, email, etc.
+   - Provides options to log out and edit profile.
 
-![Screenshot 1](image/3.jpg)
+2. **Chat Fragment**
+   - Lists persons with whom the user has messaged.
+   - Each list item shows the user's profile photo, username, fullname, and icons for audio and video calls.
+   - Tapping on a user's photo opens a dialog box with options to chat or view the user's information.
+   - Tapping on a list item directs to the chat activity with that user.
 
-![Screenshot 2](image/2.jpg)
+3. **Photo Status Fragment**
+   - Users can set their status (only photos, not videos).
+   - Displays the status updates of users from the chat fragment list.
+   - Each status list shows the status and time of update.
+   - Clicking on a status shows it in full screen for 4 seconds.
 
-![Screenshot 3](image/1.jpg)
+### Search User
 
-### Installation
+- Allows users to search for any user and initiate a chat.
+- Search results display all users who have created accounts in Word Wave.
 
-To install the WeatherApp on your Android device, follow these steps:
+### Individual Chat
 
-1. Clone the repository to your local machine:
+- Users can chat individually with any user from the chat fragment list or search results.
+- The chat fragment only shows users with whom the user has previously chatted, while the search bar shows all users.
+- The chat screen displays:
+  - Profile photo of the user
+  - Username
+  - User status (online or last seen)
+  - Audio and video calling buttons
+  - Previous message list with timestamps
+- Users can send messages, view user info, and make audio/video calls.
 
-   ```bash
-   git clone https://github.com/Raj-Pavara/Weather.git
-   ```
+### User Info Activity
 
-2. Open the project in Android Studio.
+- Displays the user's fullname, username, profile photo, phone number, email, etc.
+- Provides options to make audio/video calls and share the user's account info via various platforms.
 
-3. Connect your Android device to your computer using a USB cable.
+### Additional Information
 
-4. Build and run the project on your device.
+1. **Firebase Functionalities Used:**
+   - Realtime Database
+   - Firestore
+   - Storage
+   - Authentication
+2. **ZegoCloud:** Implemented for audio and video calling functionality.
+3. **Message History:** Users can see all previous chats upon logging in.
+4. **Unique Username:** Each account has a unique username.
+5. **Message Deletion:** Users can delete messages for themselves or for everyone.
 
-### Download APK
+## Repository
 
-You can download the latest version of the WeatherApp APK [here](https://github.com/Raj-Pavara/Weather/tree/main/Apk%20File).
+- [Word Wave Repository](https://github.com/YourUsername/WordWave)
+
+Feel free to explore the project and don't hesitate to reach out with any questions or feedback!
