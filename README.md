@@ -2,7 +2,7 @@
 
 ## 📜 Description
 
-Word Wave is an Android Studio project developed using Java and XML, with Firebase as the database. Word Wave is a chatting application.
+Word Wave is an Android-based chatting application developed using Java and XML in Android Studio. It leverages Firebase for database management and ZegoCloud for audio and video calling functionality.
 
 ## 📋 Details of Word Wave
 
