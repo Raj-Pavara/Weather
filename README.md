@@ -2,76 +2,98 @@
 
 ## 📜 Description
 
-Word Wave is an Android-based chatting application developed using Java and XML in Android Studio. It leverages Firebase for database management and ZegoCloud for audio and video calling functionality.
+Welcome to Word Wave! This is an Android-based chatting application developed using Java and XML in Android Studio, with Firebase handling the database management and ZegoCloud enabling audio and video calling functionality.
 
-## 📋 Details of Word Wave
+## 🛠️ Development Tools
+
+Developed using:
+- 📱 Android Studio
+- ☕ Java
+- 🖌️ XML
+- 💾 Firebase
+
+## 📋 Features
 
 ### 🔒 Authentication System
 
-- **Individual Accounts:** Each user has a unique account.
-- **Sign Up Options:** Users can sign up using Google, phone number, or email and password.
-  - **Profile Information:** During account creation, users must set a profile photo, username, fullname, email, and phone number.
-- **Sign In:** Users must sign in to use the functionalities of Word Wave.
-  - **Phone Number:** Users can sign up using a specific phone number and can sign in using that number only.
-  - **OTP:** For sign-in/sign-up using phone number, an OTP is required.
-  - **🔑 Forgot Password:** For email-password sign-up, a password reset link is sent to the entered email if the user forgets their password.
+- **Individual Accounts:** Each user has a distinct account.
+- **Sign Up Options:** Users can register using Google, phone number, or email and password.
+  - **Profile Setup:** Requires profile photo, username, fullname, email, and phone number.
+- **Sign In:** Necessary to access app functionalities.
+  - **OTP Verification:** For phone number sign-up/sign-in.
+  - **🔑 Forgot Password:** Email-password users receive a reset link.
 
 ### 🏠 Main Activity
 
-After authentication, users are directed to the main activity, which contains three fragments:
+Upon authentication, users access the main activity with three key fragments:
 
 1. **👤 Profile Fragment**
-   - Displays account details like profile photo, fullname, username, email, etc.
-   - Provides options to log out and edit profile.
+   - Shows account details: profile photo, fullname, username, email, etc.
+   - Options to log out and edit profile.
 
 2. **💬 Chat Fragment**
-   - Lists persons with whom the user has messaged.
-   - Each list item shows the user's profile photo, username, fullname, and icons for audio and video calls.
-   - Tapping on a user's photo opens a dialog box with options to chat or view the user's information.
-   - Tapping on a list item directs to the chat activity with that user.
+   - Displays a list of contacts.
+   - Each contact shows a profile photo, username, fullname, and icons for audio and video calls.
+   - Clicking a contact opens a dialog box for chat or user info.
+   - Clicking a list item navigates to the chat activity.
 
 3. **📸 Photo Status Fragment**
-   - Users can set their status (only photos, not videos).
-   - Displays the status updates of users from the chat fragment list.
-   - Each status list shows the status and time of update.
-   - Clicking on a status shows it in full screen for 4 seconds.
+   - Users can set and view photo statuses.
+   - Displays statuses of contacts from the chat fragment list.
+   - Viewing a status shows it full screen for 4 seconds.
 
 ### 🔍 Search User
 
-- Allows users to search for any user and initiate a chat.
-- Search results display all users who have created accounts in Word Wave.
+- Search for users to initiate chat.
+- Displays all users registered in Word Wave.
 
 ### 🗨️ Individual Chat
 
-- Users can chat individually with any user from the chat fragment list or search results.
+- Chat individually with contacts from the chat list or search results.
 - The chat fragment only shows users with whom the user has previously chatted, while the search bar shows all users.
-- The chat screen displays:
-  - Profile photo of the user
-  - Username
-  - User status (online or last seen)
-  - Audio and video calling buttons
-  - Previous message list with timestamps
-- Users can send messages, view user info, and make audio/video calls.
+- The chat screen includes:
+  - User's profile photo, username, and online status.
+  - Audio and video calling buttons.
+  - Previous messages with timestamps.
+  - Options to view user info and make calls.
 
 ### 📇 User Info Activity
 
-- Displays the user's fullname, username, profile photo, phone number, email, etc.
-- Provides options to make audio/video calls and share the user's account info via various platforms.
+- Displays user's fullname, username, profile photo, phone number, email, etc.
+- Options for audio/video calls and sharing user info via other platforms.
 
 ### 📌 Additional Information
 
-1. **Firebase Functionalities Used:**
+1. **Firebase Services Used:**
    - Realtime Database
    - Firestore
    - Storage
    - Authentication
-2. **ZegoCloud:** Implemented for audio and video calling functionality.
-3. **🕒 Message History:** Users can see all previous chats upon logging in.
-4. **🔑 Unique Username:** Each account has a unique username.
-5. **🗑️ Message Deletion:** Users can delete messages for themselves or for everyone.
+2. **ZegoCloud:** For audio and video calling functionality.
+3. **🕒 Message History:** View all previous chats upon logging in.
+4. **🔑 Unique Username:** Ensures each account has a distinct username.
+5. **🗑️ Message Deletion:** Delete messages for yourself or for everyone.
 
-## 📂 Repository
+## 📸 Screenshots
 
-- [Word Wave Repository](https://github.com/YourUsername/WordWave)
+You can see screenshots of this app in the [screenshots](https://github.com/Raj-Pavara/WordWave/tree/main/screenshots) folder.
 
-Feel free to explore the project and don't hesitate to reach out with any questions or feedback!
+## 📦 APK File
+
+You can find and easily download the APK file for this app in the 📁 [APK file](https://github.com/Raj-Pavara/WordWave/tree/main/APK%20file) folder.
+
+## 💡 Feedback
+
+We appreciate your feedback! If you have any suggestions or find any issues, please open an issue or reach out to us.
+
+## 🔗 LinkedIn Profile
+
+You can watch a demo video of the Word Wave app on my LinkedIn profile: [My LinkedIn Profile](https://www.linkedin.com/in/raj-pavara-6b65262aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+Feel free to connect with me on LinkedIn for more updates and discussions!
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Raj-Pavara/WordWave.git
